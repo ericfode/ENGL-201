@@ -1,0 +1,90 @@
+@inproceedings{RefWorks:1,
+	author={D. Bell and L. Gana},
+	year={2012},
+	title={Algorithmic Trading Systems: A Multifaceted View of Adoption},
+	booktitle={System Science (HICSS), 2012 45th Hawaii International Conference on},
+	pages={3090-3099},
+	note={ID: 1},
+	abstract={Algorithmic trading has been blamed for an increasing level of volatility in a number of financial markets. Adoption and deployment of algorithmic trading systems has increased and this is likely to continue, as regulation, competition and innovation drive the development of advanced technological tools. Expert and intelligent systems provide the mechanics for both reacting to and affecting a financial market that is now significantly faster and operating across multiple time zones and markets. Surprisingly, much of this innovation has escaped discussion within the Information Systems research community. This paper explores this growing arena by engaging with senior practitioners in the industry and using interviews and grounded theory (GT) analysis to uncover their adoption concerns. The paper generalises these issues within a framework and guidelines aimed at supporting algorithmic trading system adoption, deployment and development.},
+	isbn={1530-1605},
+	annote={
+	?Algorithimc Trading Systems: A multifaceted view of adoption? provided a quick overview of the recent evolutions in how the market works. The market has progressed from being a group of people that meet and agree on how much to trade of their companies for how much to an incredibly quick, complex, and global system that allows anyone to (nearly) instantly trade shares from (nearly) anywhere.  Now it is possible for not only people to do this but also computers. This article presents the experience that IT professionals have had in the adoption of such systems. Topics like: The expense of maintaining a data center that is guaranteed to be up all of the time, being able to scale to exponentially more trades then the system was originally built for, and compliance with federal regulations.\\
+
+This article was only vaguely on the topic I was hoping for, the implementation in software of such systems not the adoption of software in to IT infrastructure. Though it did have a nice little description of some of the evolution of algorithmic trading over the past few years at the beginning.}
+
+}
+
+@inproceedings{RefWorks:18,
+	author={G. C. Calafiore and B. Monastero},
+	year={2010},
+	title={Experiments on stock trading via feedback control},
+	booktitle={Information and Financial Engineering (ICIFE), 2010 2nd IEEE International Conference on},
+	pages={494-498},
+	note={ID: 2},
+	abstract={This paper analyses the predictability and return of the Barmish-Iwarere trading algorithm described in. In the first part of the paper, we study the trade triggering algorithm using either an Ito process model, or real data from indexes and ETFs. It is shown through hypothesis testing that the trigger provides mixed results in predicting the sign of the single trade, for both the Ito process and real indexes. However, we show empirically the trigger is sufficiently good in identifying a trend, while it fails in detecting side movements. In the second part of the paper, the effect of parameters of the feedback controller will be analysed under various market circumstances, the efficiency of a pre-optimization on the last data will appear controversal. Some changes will be tried with the objective of improving the returns. In particular, the trigger is modified to detect anomalous falls during a rising trend using the estimated volatility.},
+	annote={
+	"Experiments on Stock Trading Via Feedback Control". Explores and describes the Barmish-Iwarere (BI) trading algorithim. The paper begins by describing some background information used in BI. First Brownian motion is quickly review as being: a Markov process, having independent increments, and normally distributed over time. Second the Ito process  is described as being a composite of the Wiener process and Brownian motion. The trading system being explored is then described as being composed of a trigger and a controller. The trigger tells the controller when to take and the controller decides how aggressive to take the given action. An Ito process was used to test the system. The trigger takes action if any of the following conditions are true: ?confidence? in the stock is at the lower tolerance level, or the stock is significantly high then the drift or volatility would normally allow for (a market imbalance seems to have been detected). It is indicated that this process is very well optimized but the problem of how to optimize the amount of a risky investment is an open problem. The possibility of using an optimal Kelly fraction (or the Latane strategy) is then explored. The results of the research are then explored with the conclusion that BI is moderately effect and fairly predictable.\\
+This article was interesting. It helped me find some more terms (listed below) that may help me in understanding the concepts necessary for effective development, evaluation and discussion of automatic trading systems. The concepts of the Ito process and approximations of the Black-Scholes model seem to be particularly important.
+Further research is needed to determine what the following terms are: Wiener process, drift (in the context of stock trading), Brownian motion, optimal Kelly fraction, Latane strategy, Black-Scholes model.
+}
+}
+
+@inproceedings{RefWorks:23,
+	author={S. Hayward},
+	year={2004},
+	title={Setting up performance surface of an artificial neural network with genetic algorithm optimization: in search of an accurate and profitable prediction of stock trading},
+	booktitle={Evolutionary Computation, 2004. CEC2004. Congress on},
+	volume={1},
+	pages={948-954 Vol.1},
+	note={ID: 5},
+	abstract={This paper considers a design framework of a computational experiment in finance. The examination of relationships between statistics used for economic forecasts evaluation and profitability of investment decisions reveals that only the 'degree of improvement over efficient prediction' shows robust links with profitability. If profits are not observable, this measure is proposed as an evaluation criterion for an economic prediction. Also combined with directional accuracy, it could be used in an estimation technique for economic behavior, as an alternative to conventional least squares. Model discovery and performance surface optimization with genetic algorithm demonstrate profitability improvement with an inconclusive effect on statistical criteria.},
+	annote={
+	"Setting Up Performance Surface of an Artificial Neural Network with Genetic Algorithm Optimization: In Search of an Accurate and Profitable Prediction of Stock Trading" talk about various prediction methods used in evolutionary artificial neural network (E/ANN). First the problem is modeled, that being the composition of various (E/ANN) methods and prediction methods to make a decision on whether a trigger should be raised and how much to invest if so. The model and variables that this paper is using to describe the market is then reviewed. Next, the method used to determine the optimal predictor in the context of this paper is reviewed (in this case to use another machine learning algorithm the merits of which are quickly debated against other machine learning methods). The parameters determining the scope of the review of results were defined. The article concluded as not determining any ?best? predictor.
+First this article is in a terrible font. The article has some interesting points about how to do analysis on various components of a E/ANN algorithm. While this is not the point of the article it does seem to be something that might be worth duplicating or using as a reference when comparing methods that different researchers used. The articles it cites are also interesting looking I will have to look them up. 
+Further research is needed to determine what the following terms are: Surface optimization (in the context of genetic algorithms), autocovarience (which against words belief is a word), Posterior Optimal Rule Signal (PORS), (Backpropagation (another real word) in the context of online machine learning).
+}
+}
+
+@inproceedings{RefWorks:24,
+	author={T. Iokibe and S. Murata and M. Koyama},
+	year={1995},
+	title={Prediction of foreign exchange rate by local fuzzy reconstruction method},
+	booktitle={Systems, Man and Cybernetics, 1995. Intelligent Systems for the 21st Century., IEEE International Conference on},
+	volume={5},
+	pages={4051-4054 vol.5},
+	note={ID: 6},
+	abstract={Several systems for the purpose of predicting trends in the foreign exchange market and stocks have been developed. They are either knowledge based expert systems or fuzzy expert systems. The disadvantage},
+	annote={
+	"Prediction of Foreign Exchange Rate by Local Fuzzy Reconstruction Method" primarily reviews three topics: predicting timeseries data and deterministic chaos, Takens? embedding theorem, local fuzzy reconstruction. Deterministic chaos is defined as being a system that is seemingly chaotic yet is generated by a deterministic source. Takens? embedding theorem is a method of determining the location of a attractor in a chaotic system. A visual example of how this can apply to a two dimensional data source is also presented. Finally the concept of local fuzzy reconstruction is introduced (LFRM). LFRM is a much less expensive way and simpler to calculate with less variables the next probable state in a deterministically chaotic set of behaviors. The article concludes after reviewing a experiment that the system is sufficiently accurate to be used in short term predictions.
+As with most things involving chaos (in the mathematical since) attractors are discussed and it seems to me that using strange attractors in the context of predicting the stock market is a remarkably good idea. Also the mention of Takens? theorem is very intriguing and will lead to further research. The idea of remodeling the stock exchange as a multi-dimensional data source also seems like a good idea to me. It makes me wonder if this could be extended to work with longer term predictions or used in concert with other methods to effectively make predictions.
+Further research is needed to determine what the following terms are: dynamical, deterministic chaos in a general setting, better understanding of fuzzy logic.
+Side note: I don?t care what the world says dynamical IS NOT a word.
+	}
+}
+
+@inproceedings{RefWorks:21,
+	author={G. Kendall and Y. Su},
+	year={2004},
+	title={Learning with imperfections - a multi-agent neural-genetic trading system with differing levels of social learning},
+	booktitle={Cybernetics and Intelligent Systems, 2004 IEEE Conference on},
+	volume={1},
+	pages={47-52 vol.1},
+	note={ID: 3},
+	abstract={Some real life dynamic systems are so large and complex that the individuals inside the system can only partially understand their environment. In other words, the dynamic environment is imperfect to its participants. In this paper, by using the stock market as a test bed, we demonstrate an integrated individual learning and social learning model for optimisation problems in dynamic environments with imperfect information. By applying differing levels of social learning process in an evolutionary simulated stock market, we study the importance of social learning on the adaptability of artificial agents in imperfect environments. Comparisons between the integrated individual and social learning model and other evolutionary approaches for dynamic optimisation problems, particularly the memory-based approaches and multipopulation approaches, are also drawn with the emphasis on optimisation problems with imperfect information.},
+	annote={
+	"Learning with Imperfections - a Multi-Agent Neural-Genetic Trading System with Differing Levels of Social Learning" presents the paradigm of the market being such a complex system that any perceptions that we or computers can make of it are imperfect.  This makes the market an imperfect system (from any useful point of view). The paper also explores how a multi-agent system that communicates with it?s self behaves in this context. First the research is introduced reviewing the components of the research: finding a evolutionary algorithm that not only can find a optimal solution but adapt to the non-static fitness space that is present in the market, and the fact that no matter how much data you provide an agent with it is not possible for them to create a completely accurate predictive model that can be used (imperfect environment) and that this will cause each agent to perceive the environment a unique (possibly useful) way. Next optimization problems (and ideas to overcome them) in dynamic environments are discussed. The primary idea here is that having multiple agents each which evolve to be more effective at smaller problems and then share their knowledge with each other (though not necessarily with the next generation to prevent local optima) may be effective. Then two models of how to do this are discussed. Next the algorithms used in each agent are reviewed, in this case a neural-genetic hybrid algorithm. The rules of the system used to simulate these agents are then described. Following this, how social learning and individual learning work in the context of this experiment is shown in detail. The article concludes with a short description of where further research may continue and infers that this is a very feasible, though imperfect solution.
+
+This article is to dense to summarize all of it?s contents in 300 words? Though I think that the idea of using agents that only evolve a solution to a small subset of the problem is brilliant and needs to be extended to not only just creating different points of view on how the environment works but also to be applied in situations that are carefully selected (by another algorithm) to be a situation that the algorithm will excel in. The idea of them communicating with each other also seems to be very useful and infers that it may be a good idea to have multiple agents looking at any given situation, just like you would have a team of people look at a hard problem. The idea of imperfect environments is one that I think can be applied to many situations because so many real world problems are too complex to accurately model, ways to deal with this may be part of the answer to how to effectively deal with the market.
+
+
+
+
+	}
+}
+
+
+
+
+
+
+
