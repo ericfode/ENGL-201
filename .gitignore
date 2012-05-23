@@ -1,3 +1,9 @@
 
 /I-Search/~$SearchOutline.docx
 /I-Search/~WRL0510.tmp
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.stackdump
